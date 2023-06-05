@@ -1,0 +1,4 @@
+/data
+/visualization
+*.ipynb
+*.pth
