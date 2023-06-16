@@ -1,5 +1,7 @@
 /__pycache__
 /data
-/visualization
+/result
+/zhiyang
 *.ipynb
 *.pth
+*.svg

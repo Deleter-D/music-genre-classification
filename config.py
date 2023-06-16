@@ -8,6 +8,9 @@ class Config():
 
     def default(self):
         self.parser.add_argument('--data_path', type=str, default='./data')
+        self.parser.add_argument('--batch_size', type=int, default=32)
+        self.parser.add_argument('--epoch', type=int, default=80)
+        self.parser.add_argument('--learning_rate', type=float, default=0.001)
 
     def parse(self):
         self.default()
